@@ -1,0 +1,14 @@
+service : apinode1
+securityGroupIds: sg-b9ce49ca
+subnetIds: subnet-51d8c06d
+providerRuntime : nodejs4.3
+providerMemorySize : 256
+providerTimeout : 160
+region: us-east-1
+domain : slf
+# Put your custom role here which has the IAM permissions required by your code
+iamRoleARN: arn:aws:iam::682452625784:role/jazz603_lambda2_basic_execution_1
+
+owner: aanand12
+slack_channel: NA
+require_internal_access: false
